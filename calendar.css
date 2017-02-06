@@ -1,0 +1,105 @@
+* 
+    {
+        font-family:"Helvetica Ultra Compressed";
+    }
+
+/* navigation bar */
+QCalendarWidget QWidget#qt_calendar_navigationbar 
+    { 
+        background-color: #000000;
+    }
+
+QCalendarWidget QToolButton 
+    {
+        height: 60px;
+        width: 150px;
+        color: white;
+        font-size: 60px;
+        icon-size: 56px, 56px;
+        border-radius:10px;
+    }
+
+QCalendarWidget QToolButton#qt_calendar_prevmonth
+    {
+        qproperty-icon:url(":/images/handle1.png");
+    }
+    
+QCalendarWidget QToolButton#qt_calendar_nextmonth
+    {
+        qproperty-icon:url(":/images/handle1.png");
+    }
+    
+QCalendarWidget QToolButton#qt_calendar_yearbutton 
+    {
+        
+    }
+    
+QCalendarWidget QToolButton#qt_calendar_monthbutton 
+    {
+        
+    }
+QCalendarWidget QToolButton#qt_calendar_yearbutton 
+    {
+        
+    }
+
+QCalendarWidget QToolButton#qt_calendar_prevmonth:hover,
+                QToolButton#qt_calendar_nextmonth:hover,
+                QToolButton#qt_calendar_monthbutton:hover,
+                QToolButton#qt_calendar_yearbutton:hover,
+                QToolButton#qt_calendar_prevmonth:pressed,
+                QToolButton#qt_calendar_nextmonth:pressed,
+                QToolButton#qt_calendar_monthbutton:pressed,
+                QToolButton#qt_calendar_yearbutton:pressed
+                {
+                    border:1px solid #D8D8D8;
+                }
+
+/* header row */
+QCalendarWidget QWidget 
+    { 
+        alternate-background-color: rgb(128, 128, 128); 
+        
+    }
+
+/* normal days */
+QCalendarWidget QAbstractItemView:enabled 
+    {
+        font-size:24px; 
+        color: rgb(180, 180, 180); 
+        background-color: black; 
+        selection-background-color: #ff9900; 
+        selection-color: #000000; 
+    }
+
+/* days in other months */
+QCalendarWidget QAbstractItemView:disabled 
+    { 
+        color: #cccccc; 
+    }
+
+    
+QCalendarWidget QMenu 
+    {
+        width: 150px;
+        left: 20px;
+        color: white;
+        font-size: 18px;
+        background-color: rgb(100, 100, 100);
+    }
+    
+QCalendarWidget QSpinBox 
+    { 
+        width: 150px; 
+        font-size:24px; 
+        color: white; 
+        background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0 #cccccc, stop: 1 #333333); 
+        selection-background-color: rgb(136, 136, 136);
+        selection-color: rgb(255, 255, 255);
+    }
+    
+QCalendarWidget QSpinBox::up-button { subcontrol-origin: border; subcontrol-position: top right; width:65px; }
+QCalendarWidget QSpinBox::down-button {subcontrol-origin: border; subcontrol-position: bottom right; width:65px;}
+QCalendarWidget QSpinBox::up-arrow { width:56px; height:56px; }
+QCalendarWidget QSpinBox::down-arrow { width:56px; height:56px; }
+

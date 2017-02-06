@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/images">
+        <file>handle1.png</file>
+        <file>black_15.png</file>
+        <file>handle2.png</file>
+        <file>arrow_left_45.png</file>
+        <file>arrow_right_45.png</file>
+        <file>redalert.gif</file>
+        <file>loading.gif</file>
+        <file>sliderbg.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>Helvetica_Ultra_Compressed.ttf</file>
+        <file>webdings.ttf</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>computerbeep_15.mp3</file>
+        <file>processing.mp3</file>
+        <file>processing2.mp3</file>
+        <file>tng_red_alert1.mp3</file>
+        <file>tng_viewscreen_on.mp3</file>
+        <file>denybeep3.mp3</file>
+        <file>input_failed2_clean.mp3</file>
+    </qresource>
+    <qresource prefix="/includes"/>
+    <qresource prefix="/xml">
+        <file>zeiten.xml</file>
+        <file>tasks.xml</file>
+        <file>settings.xml</file>
+    </qresource>
+</RCC>
